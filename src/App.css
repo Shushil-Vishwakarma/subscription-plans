@@ -1,0 +1,78 @@
+/* App.css */
+body {
+  background-color: #f8f9fa;
+}
+
+.main-container {
+  margin-top: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  width: 300px; /* Adjust width as needed */
+  padding: 1.25rem;
+}
+
+.free {
+  background-color: #e0e0e0; /* Grey for Free plan */
+}
+
+.plus {
+  background-color: #c0c0c0; /* Grey for Plus plan */
+}
+
+.pro {
+  background-color: #a0a0a0; /* Grey for Pro plan */
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.card-price {
+  font-size: 1.25rem;
+  color: black;
+}
+
+.feature-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item {
+  padding: 0.75rem 1.25rem;
+}
+
+.btn {
+  background-color: skyblue;
+  color: white;
+  border: none;
+  border-radius: .25rem;
+  padding: 0.75rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #87ceeb; /* Slightly darker blue for hover effect */
+}
